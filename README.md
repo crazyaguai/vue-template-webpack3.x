@@ -1,15 +1,12 @@
-# masterDax官网
-
-> masterDax官网，同时适配PC和移动端。
+# vue 多页面 模板
 
 <h2>**必读** 项目约定</h2>
 
 1. 插件引入
 
-   项目已经引入的插件有 `vue`、`vuex`、`vue-router`、`vue-i18n`、`element-ui`、`babel-polyfill`、`axios`、`decimal.js-light`、`moment`、`QRCode`
+   项目已经引入的插件有 `vue`、`vuex`、`vue-router`、`vue-i18n`、`babel-polyfill`、`axios`、`decimal.js-light`、`moment`、`QRCode`
 
    可以使用es6、es7、es8语法，如果要添加其他插件，直接yarn add，然后再项目中需要使用的地方import即可
-
 
 2. 使用图片
 
@@ -32,7 +29,7 @@
     ```
 3. <span id="resolve">全局resolve</span>
 
-    |     符号     |   代表文件夹  |
+    |     符号     |   代表文件夹  |
     |:-----------:|:-----------:|
     |      @      |   src文件夹  |
     |      img    |   static/img文件夹 |
@@ -85,11 +82,11 @@
 
     使用sass预处理器编写css代码，使用postcss,autoprefixer自动处理浏览器前缀添加。
 
-    没有引入任何css框架。
+    没有引入任何css框架。
 
 3. js相关
 
-    使用babel处理src下所有js，推荐使用es6语法。
+    使用babel处理src下所有js，推荐使用es6语法。
 
     代码引入风格推荐使用import。
 
@@ -110,7 +107,7 @@
 
         所有页面共有的js和scss分别放对应的文件夹下，common下的index.js作为且作为所有公共scss的入口。
 
-        所有js在需要的地方直接import，引用页面超过一定个数（默认3个，可以在 **webpack/config** 文件内修改，会自动加入到commonChunk中。
+        所有js在需要的地方直接import，引用页面超过一定个数（默认3个，可以在 **webpack/config** 文件内修改，会自动加入到commonChunk中。
 
     * components
 
