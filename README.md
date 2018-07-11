@@ -88,7 +88,7 @@
 
     使用babel处理src下所有js，推荐使用es6语法。
 
-    代码引入风格推荐使用import。
+    代码引入风格推荐使用import。
 
 4. html相关
 
